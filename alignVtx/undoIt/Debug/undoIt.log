@@ -1,0 +1,18 @@
+﻿生成启动时间为 2017/06/30 13:03:26。
+     1>项目“E:\CPP\MayaApi\undoIt\undoIt\undoIt\undoIt.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         G:\Visual Studio 2012\VC\bin\x86_amd64\CL.exe /c /I. /I"G:\Autodesk\MAYA 2017\Maya2017\include" /Zi /nologo /W3 /WX- /Od /D _DEBUG /D WIN32 /D _WINDOWS /D _USRDLL /D NT_PLUGIN /D _HAS_ITERATOR_DEBUGGING=0 /D _SECURE_SCL=0 /D _SECURE_SCL_THROWS=0 /D _SECURE_SCL_DEPRECATE=0 /D _CRT_SECURE_NO_DEPRECATE /D TBB_USE_DEBUG=0 /D __TBB_LIB_NAME=tbb.lib /D REQUIRE_IOSTREAM /D AW_NEW_IOSTREAMS /D Bits64_ /D _WINDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Debug\\" /Fd"Debug\undoIt.pdb" /Gd /TP /errorReport:prompt pluginMain.cpp undoIt.cpp
+         undoIt.cpp
+     1>undoIt.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+         pluginMain.cpp
+         正在生成代码...
+       Link:
+         G:\Visual Studio 2012\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"Debug\undoIt.mll" /INCREMENTAL /NOLOGO /LIBPATH:"G:\Autodesk\MAYA 2017\Maya2017\lib" Foundation.lib OpenMaya.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"Debug\undoIt.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /NXCOMPAT /IMPLIB:"Debug\undoIt.lib" /MACHINE:X64 /export:initializePlugin /export:uninitializePlugin /DLL Debug\pluginMain.obj
+         Debug\undoIt.obj
+            正在创建库 Debug\undoIt.lib 和对象 Debug\undoIt.exp
+         undoIt.vcxproj -> E:\CPP\MayaApi\undoIt\undoIt\undoIt\Debug\undoIt.mll
+     1>已完成生成项目“E:\CPP\MayaApi\undoIt\undoIt\undoIt\undoIt.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.88
