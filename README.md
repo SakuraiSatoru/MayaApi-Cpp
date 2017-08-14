@@ -1,3 +1,3 @@
 # MayaApi-Cpp
-Learning MayaApi using Cpp
+MayaApi using Cpp
 Thanks to JiangHan@YouTube
